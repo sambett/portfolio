@@ -70,6 +70,38 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
    npm start
    ```
 
+## 🌐 Deployment
+
+### Vercel Deployment (Recommended)
+
+This project is optimized for Vercel deployment:
+
+1. **Push to GitHub** (already done):
+   ```bash
+   git push origin main
+   ```
+
+2. **Deploy to Vercel**:
+   - Go to [vercel.com](https://vercel.com)
+   - Import your GitHub repository: `https://github.com/sambett/portfolio.git`
+   - Vercel will automatically detect Next.js and configure the build settings
+   - Deploy with one click!
+
+3. **Environment Variables** (if needed):
+   - Copy `.env.example` to `.env.local` for local development
+   - Add environment variables in Vercel dashboard for production
+
+### Custom Domain (Optional)
+- Add your custom domain in Vercel dashboard
+- Update `next.config.js` domains array if using custom images
+
+### Build Configuration
+The project includes optimized build settings:
+- ✅ `vercel.json` - Vercel-specific configuration
+- ✅ `next.config.js` - Next.js optimization settings
+- ✅ Security headers and performance optimizations
+- ✅ Image optimization configuration
+
 ## 📁 Project Structure
 
 ```
