@@ -1,0 +1,17 @@
+{
+  "about": {
+    "bio": "I'm an AI engineer and full-stack developer passionate about building technology that creates meaningful impact. Currently pursuing my degree at the Faculty of Sciences of Sfax, I specialize in developing intelligent systems that solve real-world problems across healthcare, education, and safety domains.",
+    "background": "My journey spans from award-winning medical AI systems to scalable infrastructure solutions. Through international volunteering across Turkey, Morocco, and Tunisia, I've gained unique perspectives on global challenges and the role technology plays in addressing them. I believe in building bridges between cutting-edge research and practical applications that serve communities worldwide.",
+    "education": "Computer Science & Communications, Faculty of Sciences of Sfax",
+    "location": "Tunis, Tunisia",
+    "interests": [
+      "Artificial Intelligence & Machine Learning",
+      "Full-Stack Development", 
+      "DevOps & Cloud Infrastructure",
+      "Global Health Technology",
+      "Cross-Cultural Collaboration"
+    ],
+    "personalNote": "When I'm not coding, you'll find me exploring new cultures through AIESEC volunteering, contributing to open-source projects, or planning my next international adventure. I'm driven by the belief that technology should serve humanity, not the other way around.",
+    "updatedAt": "2024-08-05"
+  }
+}

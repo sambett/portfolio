@@ -1,0 +1,224 @@
+{
+  "projects": [
+    {
+      "id": "neurorag",
+      "title": "NeuroChatRAG - Medical AI System",
+      "description": "Award-winning RAG system for neurological disease information with dual-complexity responses",
+      "fullDescription": "NeuroChatRAG is an award-winning Retrieval-Augmented Generation system that provides accurate, context-aware responses about neurological conditions including Multiple Sclerosis, Parkinson's, Alzheimer's, and Stroke. Winner of TWISE Night Challenge by ARSII, this system democratizes access to reliable medical information through an intelligent conversational interface that adapts to user expertise levels.",
+      "category": "AI Engineer",
+      "techStack": ["Python", "LangChain", "FAISS", "PubMedBERT", "OpenAI GPT-3.5", "Streamlit", "Biopython"],
+      "githubUrl": "https://github.com/sambett/NeuroChatRAG",
+      "demoUrl": "https://twise-feedback.vercel.app/",
+      "impact": [
+        "🏆 Won TWISE Night Challenge - 'Implementation of RAG-based conversational agent for neurological diseases medical information site'",
+        "🔬 Processed 9,000+ PubMed articles for comprehensive neurological disease coverage",
+        "🎯 Dual-complexity interface serving both healthcare professionals and general public",
+        "⚡ Real-time assessment with transparent information showing both AI-generated answers and retrieved medical context"
+      ],
+      "featured": true,
+      "createdAt": "2024-03-15",
+      "updatedAt": "2024-03-15",
+      "published": true
+    },
+    {
+      "id": "docconnect",
+      "title": "DocConnect - University Management Platform",
+      "description": "Full-stack professor availability system with real-time notifications and Docker deployment",
+      "fullDescription": "DocConnect is a comprehensive full-stack web application that solves the real-world university problem of students not knowing when professors are available for consultations. The system allows professors to update their real-time availability status while enabling students to track availability, set notifications, and manage favorites - eliminating wasted trips to professors' offices.",
+      "category": "Software Engineer",
+      "techStack": ["Spring Boot", "Java 21", "Angular 17", "MySQL", "JWT", "Docker", "Tailwind CSS", "TypeScript"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "https://www.youtube.com/watch?v=HEmzNXPbQMg&feature=youtu.be",
+      "impact": [
+        "🏫 Solves actual university workflow problems - students frequently visiting professors during non-available hours",
+        "🔧 Complete containerization with Docker Compose for one-command deployment anywhere",
+        "🔐 Production-ready with JWT stateless authentication and comprehensive security implementation",
+        "📊 Real-time data management with notification system and status history tracking"
+      ],
+      "featured": true,
+      "createdAt": "2024-02-20",
+      "updatedAt": "2024-02-20",
+      "published": true
+    },
+    {
+      "id": "female-farmers-health",
+      "title": "Female Farmers Health Risk Analysis",
+      "description": "AI-powered agricultural health risk assessment with PCA/MCA dimensionality reduction and multilingual NLP",
+      "fullDescription": "An AI-powered agricultural health risk assessment platform specifically designed to address occupational health hazards faced by women farmers. The system uses sophisticated PCA/MCA dimensionality reduction with machine learning for comprehensive health risk assessment, processing French agricultural interviews to extract structured health risk factors.",
+      "category": "AI Engineer",
+      "techStack": ["Python", "scikit-learn", "NLTK", "FastAPI", "PCA/MCA", "RandomForest", "Pandas", "NumPy"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "https://female-farmers-health-analysis.vercel.app/",
+      "impact": [
+        "🌍 Addresses critical public health crisis affecting millions of agricultural workers globally",
+        "📊 Sophisticated PCA/MCA dimensionality reduction reducing feature space by 70% while preserving 95% variance",
+        "🇫🇷 Domain-specific NLP system for French agricultural terminology with custom keyword extraction",
+        "⚕️ Multi-modal risk modeling (respiratory/skin/neurological) with 85%+ accuracy using reduced-dimension feature space"
+      ],
+      "featured": true,
+      "createdAt": "2024-01-10",
+      "updatedAt": "2024-01-10",
+      "published": true
+    },
+    {
+      "id": "student-housing",
+      "title": "Student Housing Management System",
+      "description": "Full-stack Java/React platform for property management with advanced search and responsive design",
+      "fullDescription": "A comprehensive property management system using Java 21, Jersey (JAX-RS), and MySQL. Built RESTful API with advanced search capabilities, implementing proper layered architecture and CORS configuration. Integrated React TypeScript frontend with responsive design using Tailwind CSS.",
+      "category": "Software Engineer",
+      "techStack": ["Java 21", "Jersey", "MySQL", "React 18", "TypeScript", "Tailwind CSS", "Maven", "Vite"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "https://www.youtube.com/watch?v=DDn99701Zek",
+      "impact": [
+        "🏠 Addresses $15+ billion student housing market challenge in the US",
+        "🔍 Advanced search & filtering capabilities with real-time form validation",
+        "🏗️ Clean MVC architecture with proper separation of concerns",
+        "📱 Responsive design optimized for mobile and desktop with modern UI styling"
+      ],
+      "featured": false,
+      "createdAt": "2024-01-05",
+      "updatedAt": "2024-01-05",
+      "published": true
+    },
+    {
+      "id": "linear-algebra-calculator",
+      "title": "Linear Algebra Calculator",
+      "description": "Comprehensive Java-based mathematical computation system with multiple algorithms and educational video",
+      "fullDescription": "A comprehensive Java-based linear algebra calculator designed for advanced mathematical computations. The system implements multiple matrix operations and system resolution algorithms, supporting various specialized matrix types for optimized performance including LU decomposition, Gaussian elimination, Cholesky decomposition, and Jacobi iteration.",
+      "category": "Computer Science Engineer",
+      "techStack": ["Java", "Maven", "JUnit", "Mathematical Algorithms"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "https://www.youtube.com/watch?v=Q1RbJFvSERo",
+      "impact": [
+        "🧮 Multiple system resolution methods (direct & iterative) with performance optimization",
+        "📚 Educational video tutorial creation for academic use",
+        "⚡ Performance-optimized algorithms for specialized matrix types (sparse, banded, triangular)",
+        "🎓 Collaborative 3-person team delivery of educational software"
+      ],
+      "featured": false,
+      "createdAt": "2023-12-15",
+      "updatedAt": "2023-12-15",
+      "published": true
+    },
+    {
+      "id": "mkp-metaheuristics",
+      "title": "MKP Metaheuristics Optimization Platform",
+      "description": "Interactive visualization platform comparing multiple metaheuristic algorithms for Multiple Knapsack Problem",
+      "fullDescription": "A comprehensive implementation and comparison of metaheuristic optimization algorithms specifically designed for solving the Multiple Knapsack Problem (MKP) - a classic NP-complete combinatorial optimization problem. Includes an interactive web-based visualization dashboard for algorithm performance analysis with React.js deployment.",
+      "category": "Computer Science Engineer",
+      "techStack": ["JavaScript", "React.js", "Python", "Metaheuristic Algorithms", "Data Visualization", "GitHub Pages"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "https://sambett.github.io/mkp-metaheuristics/",
+      "impact": [
+        "🧬 Implemented 4 state-of-the-art metaheuristic algorithms (Binary PSO, BGSA, Hybrid PSO-GSA, BWOA)",
+        "📊 Interactive web-based visualization dashboard with real-time algorithm performance analysis",
+        "🔬 Comprehensive benchmarking framework for optimization algorithm comparison with convergence analysis",
+        "🎯 Academic research contribution with live demonstration platform showcasing algorithm effectiveness"
+      ],
+      "featured": false,
+      "createdAt": "2024-12-01",
+      "updatedAt": "2024-12-01",
+      "published": true
+    },
+    {
+      "id": "twise-feedback",
+      "title": "AI-Powered Universal Feedback Platform",
+      "description": "Real-time sentiment analysis platform with DistilBERT achieving 95% accuracy vs 60% keyword matching",
+      "fullDescription": "A real-time feedback collection and analytics platform that uses machine learning for sentiment analysis. The system supports multiple event types (research conferences, weddings, corporate demos) with customizable themes and provides live dashboard analytics using DistilBERT multilingual sentiment model.",
+      "category": "AI Engineer",
+      "techStack": ["Next.js 15", "React 19", "TypeScript", "Transformers.js", "DistilBERT", "Firebase", "Tailwind CSS"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "https://twise-feedback.vercel.app/",
+      "impact": [
+        "🤖 Real-time AI sentiment analysis using DistilBERT (95% accuracy vs 60% keyword matching)",
+        "🎭 Multi-tenant event management with customizable themes and branding",
+        "📊 Live dashboards with interactive charts and real-time updates",
+        "🔄 QR code generation for easy mobile access to feedback forms with multilingual support"
+      ],
+      "featured": true,
+      "createdAt": "2024-03-01",
+      "updatedAt": "2024-03-01",
+      "published": true
+    },
+    {
+      "id": "kubernetes-nfs-storage",
+      "title": "Kubernetes NFS Storage Platform",
+      "description": "Automated 3-node Kubernetes cluster with NFSv4 persistent storage using Infrastructure as Code",
+      "fullDescription": "A sophisticated implementation of Network File System (NFS) services within a Kubernetes cluster environment, featuring advanced automation, performance optimization, and hybrid storage capabilities. The project demonstrates the evolution from traditional storage protocols to modern cloud-native infrastructure through strategic enhancements and comprehensive automation.",
+      "category": "DevOps Engineer",
+      "techStack": ["Kubernetes", "Ansible", "NFSv4", "MinIO", "Docker", "Ubuntu", "CloudStack", "Flannel CNI"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "",
+      "impact": [
+        "🔧 Comprehensive automation framework reducing manual configuration by 90%",
+        "🏗️ Hybrid storage solution integrating traditional NFS with MinIO object storage",
+        "📈 Performance optimization strategies achieving measurable improvements in throughput",
+        "🔄 Automated snapshot and recovery system for data protection with point-in-time restore capabilities"
+      ],
+      "featured": false,
+      "createdAt": "2024-11-15",
+      "updatedAt": "2024-11-15",
+      "published": true
+    },
+    {
+      "id": "plant-disease-classification",
+      "title": "Plant Disease Classification Using Deep Learning",
+      "description": "Transfer learning comparison study for agricultural disease detection with VGG16 vs ResNet50",
+      "fullDescription": "A comparative study of transfer learning strategies for agricultural disease detection using limited dataset, focused on optimal model selection for small-scale agricultural applications. The system classifies plant diseases across 3 categories (Healthy, Powdery, Rust diseases) with comprehensive evaluation using confusion matrices, precision, recall, F1-scores.",
+      "category": "AI Engineer",
+      "techStack": ["TensorFlow", "Keras", "VGG16", "ResNet50", "OpenCV", "Python", "Streamlit"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "https://sambett.github.io/leaf/",
+      "impact": [
+        "🌱 Research-validated findings: VGG16 outperformed ResNet50 on small datasets due to reduced overfitting",
+        "📊 Comprehensive evaluation using confusion matrices, precision, recall, F1-scores beyond simple accuracy",
+        "🔬 Best results with partial freezing strategy achieving optimal balance between feature preservation and domain adaptation",
+        "🌐 Interactive web application for real-time disease classification with educational documentation"
+      ],
+      "featured": false,
+      "createdAt": "2024-02-01",
+      "updatedAt": "2024-02-01",
+      "published": true
+    },
+    {
+      "id": "north-indian-cuisine-search",
+      "title": "North Indian Cuisine Semantic Search System",
+      "description": "CPU-optimized semantic search for safe ingredient discovery with vector embeddings across 3,500+ recipes",
+      "fullDescription": "A CPU-optimized semantic search application that enables safe and intelligent recipe discovery through vector embeddings, helping users (especially those with food allergies) quickly identify ingredients in 3,500+ authentic North Indian recipes. Built during a month-long visit to North India to understand local cuisine and ingredients.",
+      "category": "AI Engineer",
+      "techStack": ["Python", "Sentence Transformers", "ChromaDB", "Streamlit", "Docker", "Pandas", "NumPy"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "https://youtu.be/oGl7WEDB8m8",
+      "impact": [
+        "🍽️ Safety-first search enabling people with food allergies to quickly check ingredient lists",
+        "🔍 Three search types: recipe-to-ingredients, ingredient-to-recipes, and general cuisine exploration",
+        "📊 Data engineering: processed 6,871 raw recipes → 3,499 clean recipes with 57% quality improvement",
+        "🌏 Practical health safety tool solving real-world travel and dietary management challenges"
+      ],
+      "featured": false,
+      "createdAt": "2024-01-20",
+      "updatedAt": "2024-01-20",
+      "published": true
+    },
+    {
+      "id": "construction-helmet-detection",
+      "title": "Construction Safety Helmet Detection System",
+      "description": "YOLOv8-based safety monitoring with real-time compliance tracking achieving 63.6% mAP50",
+      "fullDescription": "A computer vision application that monitors construction sites for proper helmet usage using YOLOv8 object detection, providing real-time safety compliance monitoring through a web interface. The system processes images, videos, and live webcam feeds with safety analytics and violation detection.",
+      "category": "AI Engineer",
+      "techStack": ["Python", "YOLOv8", "OpenCV", "Streamlit", "NumPy", "Pandas", "Computer Vision"],
+      "githubUrl": "https://github.com/sambett",
+      "demoUrl": "https://hamlet-detection.streamlit.app/",
+      "impact": [
+        "🦺 Trained custom YOLOv8 model achieving 63.6% mAP50 across 3 classes (helmet, head, person)",
+        "⚡ Real-time processing with sub-second inference times for safety monitoring applications",
+        "📊 Safety analytics with real-time compliance tracking, violation detection, and timeline visualization",
+        "🔧 Complete dataset engineering pipeline converting PASCAL VOC annotations to YOLO format"
+      ],
+      "featured": false,
+      "createdAt": "2024-02-10",
+      "updatedAt": "2024-02-10",
+      "published": true
+    }
+  ]
+}

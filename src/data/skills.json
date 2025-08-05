@@ -1,0 +1,71 @@
+{
+  "skills": {
+    "technical": [
+      {
+        "category": "AI & Machine Learning",
+        "skills": [
+          "Python", "TensorFlow", "PyTorch", "scikit-learn", "OpenCV", 
+          "LangChain", "FAISS", "Transformers", "YOLO", "Computer Vision",
+          "NLP", "RAG Systems", "Vector Databases"
+        ]
+      },
+      {
+        "category": "Backend Development", 
+        "skills": [
+          "Java", "Spring Boot", "Node.js", "Python", "REST APIs",
+          "MySQL", "PostgreSQL", "Firebase", "MongoDB", "JWT Authentication"
+        ]
+      },
+      {
+        "category": "Frontend Development",
+        "skills": [
+          "React", "Next.js", "TypeScript", "JavaScript", "Angular",
+          "Tailwind CSS", "HTML5", "CSS3", "Responsive Design", "Streamlit"
+        ]
+      },
+      {
+        "category": "DevOps & Cloud",
+        "skills": [
+          "Docker", "Kubernetes", "Ansible", "Jenkins", "GitHub Actions",
+          "Vercel", "AWS", "Linux", "CI/CD", "Infrastructure as Code"
+        ]
+      },
+      {
+        "category": "Data & Analytics",
+        "skills": [
+          "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter",
+          "Data Visualization", "Statistical Analysis", "ETL Pipelines"
+        ]
+      }
+    ],
+    "soft": [
+      {
+        "skill": "Global Collaboration",
+        "description": "Experience working across Turkey, Morocco, Tunisia, and upcoming India projects"
+      },
+      {
+        "skill": "Problem-Solving",
+        "description": "Building practical solutions for real-world challenges in healthcare, education, and safety"
+      },
+      {
+        "skill": "Cultural Adaptability", 
+        "description": "Successfully adapted to diverse environments and cultural contexts through international volunteering"
+      },
+      {
+        "skill": "Innovation",
+        "description": "Award-winning hackathon participant with focus on impactful technology solutions"
+      },
+      {
+        "skill": "Teaching & Mentoring",
+        "description": "Experience teaching English to adult learners and creating educational content"
+      }
+    ],
+    "achievements": [
+      "🏆 TWISE Night Challenge Winner - Neurological Diseases RAG System",
+      "🌍 International Volunteer (Turkey, Morocco, Tunisia, India)",
+      "📚 Multiple Research Projects with Academic Publications",
+      "🤖 95% Accuracy AI Models in Production",
+      "🔬 9,000+ Medical Articles Processed for Healthcare AI"
+    ]
+  }
+}

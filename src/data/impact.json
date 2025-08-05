@@ -1,0 +1,53 @@
+{
+  "impact": {
+    "title": "Global Impact",
+    "subtitle": "Measuring meaningful change through technology",
+    "metrics": [
+      {
+        "id": "users-served",
+        "label": "Users Served",
+        "value": "10,000+",
+        "description": "Across medical AI systems and university platforms",
+        "icon": "users"
+      },
+      {
+        "id": "accuracy-improvement", 
+        "label": "AI Accuracy Gained",
+        "value": "95%",
+        "description": "DistilBERT sentiment analysis vs traditional methods",
+        "icon": "target"
+      },
+      {
+        "id": "countries-impacted",
+        "label": "Countries Impacted",
+        "value": "4+",
+        "description": "Through volunteer work and deployed solutions",
+        "icon": "globe"
+      },
+      {
+        "id": "medical-articles",
+        "label": "Medical Articles Processed",
+        "value": "9,000+",
+        "description": "PubMed articles for neurological disease information",
+        "icon": "fileText"
+      },
+      {
+        "id": "automation-efficiency",
+        "label": "Automation Efficiency",
+        "value": "90%",
+        "description": "Manual configuration reduction in DevOps pipelines", 
+        "icon": "zap"
+      },
+      {
+        "id": "safety-monitoring",
+        "label": "Safety Monitoring",
+        "value": "Real-time",
+        "description": "Construction helmet detection with 63.6% mAP50",
+        "icon": "shield"
+      }
+    ],
+    "mission": "My mission is to democratize access to technology that solves real problems. From healthcare AI that helps patients navigate complex medical information to safety systems that prevent workplace injuries, I focus on building solutions that create measurable positive impact in people's lives.",
+    "philosophy": "I believe technology should be a bridge, not a barrier. Every line of code I write is guided by the question: 'How will this make someone's day better, safer, or more productive?' This human-centered approach has led me to work across continents, cultures, and domains—always seeking to understand the real challenges before building the solutions.",
+    "updatedAt": "2024-08-05"
+  }
+}

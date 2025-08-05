@@ -1,0 +1,52 @@
+{
+  "experiences": [
+    {
+      "id": "aiesec-turkey",
+      "country": "Turkey",
+      "flag": "🇹🇷",
+      "role": "English Language Teaching Intern",
+      "description": "Designed and delivered English language courses to adult learners older than myself. Applied modern teaching methodologies to promote comprehension and engagement while building intercultural communication skills and adapting to new cultural norms. Developed leadership and curriculum planning skills in an unfamiliar educational setting.",
+      "impact": "Enhanced cross-cultural communication skills and gained experience in educational methodology",
+      "stats": "AIESEC Global Volunteer",
+      "projects": ["Teaching", "Cultural Exchange", "Leadership"],
+      "status": "completed",
+      "year": "Summer 2023"
+    },
+    {
+      "id": "morocco-volunteer",
+      "country": "Morocco",
+      "flag": "🇲🇦",
+      "role": "Baby Care Center Volunteer",
+      "description": "Worked closely with infants and caregivers in underserved communities. Gained exposure to early childhood health challenges and local pediatric care practices. This experience sparked a long-term interest in building tech solutions for early childhood health monitoring.",
+      "impact": "Inspired development of health-focused technology solutions",
+      "stats": "Community Health Impact",
+      "projects": ["Healthcare", "Social Impact", "Child Welfare"],
+      "status": "completed",
+      "year": "Winter 2023"
+    },
+    {
+      "id": "tunisia-post",
+      "country": "Tunisia",
+      "flag": "🇹🇳",
+      "role": "Infrastructure & Operations Intern",
+      "description": "Completed two cycles of internships at Tunisian Post Office, working in high-volume customer service environments. Learned how digital infrastructure intersects with real-world government services while assisting with documentation, logistics, and citizen-facing processes.",
+      "impact": "Gained insights into government digital transformation and public sector workflows",
+      "stats": "2 Internship Cycles",
+      "projects": ["Government Services", "Digital Infrastructure", "Operations"],
+      "status": "completed",
+      "year": "2022-2023"
+    },
+    {
+      "id": "india-upcoming",
+      "country": "India",
+      "flag": "🇮🇳",
+      "role": "Healthcare Technology Volunteer",
+      "description": "Upcoming volunteer work focusing on healthcare technology solutions in underserved communities. Building on previous experience with medical AI systems and agricultural health analytics to create practical technology solutions for healthcare challenges.",
+      "impact": "Expanding global impact through healthcare technology solutions",
+      "stats": "Healthcare Focus",
+      "projects": ["Medical AI", "Healthcare Technology", "Social Impact"],
+      "status": "upcoming",
+      "year": "2025"
+    }
+  ]
+}
