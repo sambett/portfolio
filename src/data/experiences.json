@@ -10,7 +10,7 @@
       "stats": "AIESEC Global Volunteer",
       "projects": ["Teaching", "Cultural Exchange", "Leadership"],
       "status": "completed",
-      "year": "Summer 2023"
+      "year": "Summer 2022"
     },
     {
       "id": "morocco-volunteer",
@@ -22,7 +22,7 @@
       "stats": "Community Health Impact",
       "projects": ["Healthcare", "Social Impact", "Child Welfare"],
       "status": "completed",
-      "year": "Winter 2023"
+      "year": "Summer 2023"
     },
     {
       "id": "tunisia-post",
@@ -34,19 +34,19 @@
       "stats": "2 Internship Cycles",
       "projects": ["Government Services", "Digital Infrastructure", "Operations"],
       "status": "completed",
-      "year": "2022-2023"
+      "year": "Summer 2024"
     },
     {
-      "id": "india-upcoming",
-      "country": "India",
-      "flag": "🇮🇳",
-      "role": "Healthcare Technology Volunteer",
-      "description": "Upcoming volunteer work focusing on healthcare technology solutions in underserved communities. Building on previous experience with medical AI systems and agricultural health analytics to create practical technology solutions for healthcare challenges.",
-      "impact": "Expanding global impact through healthcare technology solutions",
-      "stats": "Healthcare Focus",
-      "projects": ["Medical AI", "Healthcare Technology", "Social Impact"],
-      "status": "upcoming",
-      "year": "2025"
-    }
+  "id": "india-internship",
+  "country": "India",
+  "flag": "🇮🇳",
+  "role": "ML/AI Intern",
+  "description": "Built a semantic search system to identify ingredients in North Indian recipes, addressing real-world challenges in food transparency and allergy awareness during a summer stay. Focused on safe cultural food exploration using vector-based search.",
+  "impact": "Enabled safer ingredient discovery through semantic search",
+  "stats": "Healthcare Focus",
+  "projects": ["Semantic Search", "Food Safety", "AI for Health"],
+  "status": "completed",
+  "year": "Summer 2025"
+}
   ]
 }

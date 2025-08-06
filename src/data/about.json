@@ -1,17 +1,16 @@
 {
   "about": {
-    "bio": "I'm an AI engineer and full-stack developer passionate about building technology that creates meaningful impact. Currently pursuing my degree at the Faculty of Sciences of Sfax, I specialize in developing intelligent systems that solve real-world problems across healthcare, education, and safety domains.",
-    "background": "My journey spans from award-winning medical AI systems to scalable infrastructure solutions. Through international volunteering across Turkey, Morocco, and Tunisia, I've gained unique perspectives on global challenges and the role technology plays in addressing them. I believe in building bridges between cutting-edge research and practical applications that serve communities worldwide.",
+    "bio": "I'm an AI engineer passionate about building technology that creates meaningful impact. Currently pursuing my degree at the Faculty of Sciences of Sfax.",
+    "background": " Through international volunteering across Turkey, Morocco, and Tunisia, I’ve gained a deep appreciation for global challenges and the role technology can play in solving them. While I don’t have all the answers about climate or conservation, I know the environment makes me feel more alive. I’m still discovering how I can help protect it — even in small ways — because a healthier planet means healthier people, and I care deeply about both",
     "education": "Computer Science & Communications, Faculty of Sciences of Sfax",
-    "location": "Tunis, Tunisia",
+    "location": "Monastir, Tunisia",
     "interests": [
-      "Artificial Intelligence & Machine Learning",
-      "Full-Stack Development", 
+      "Artificial Intelligence & Machine Learning", 
       "DevOps & Cloud Infrastructure",
       "Global Health Technology",
       "Cross-Cultural Collaboration"
     ],
-    "personalNote": "When I'm not coding, you'll find me exploring new cultures through AIESEC volunteering, contributing to open-source projects, or planning my next international adventure. I'm driven by the belief that technology should serve humanity, not the other way around.",
+    "personalNote": "When I'm not studying, you'll find me exploring new cultures through AIESEC volunteering, learning new languages, or planning my next international adventure. I'm driven by the belief that technology should serve humanity, not the other way around.",
     "updatedAt": "2024-08-05"
   }
 }

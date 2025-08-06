@@ -81,13 +81,13 @@ export default function Hero() {
                 className="text-xl sm:text-2xl text-gray-600 max-w-prose leading-relaxed"
                 variants={itemVariants}
               >
-                AI Engineer & Full-Stack Developer crafting innovative solutions that bridge 
+                AI Engineer crafting innovative solutions that bridge 
                 cutting-edge technology with real-world impact.
               </motion.p>
             </motion.div>
 
             <motion.div variants={itemVariants} className="flex flex-wrap gap-3">
-              {['AI & Machine Learning', 'Full-Stack Development', 'DevOps & Cloud', 'Computer Vision'].map((skill, index) => (
+              {['AI & Machine Learning', 'DevOps & Cloud', 'Computer Vision'].map((skill, index) => (
                 <motion.span
                   key={skill}
                   initial={{ opacity: 0, scale: 0.8 }}
@@ -170,7 +170,7 @@ export default function Hero() {
               >
                 <Image
                   src="/profile.jpg"
-                  alt="Selma Bettaieb - AI Engineer & Full-Stack Developer"
+                  alt="Selma Bettaieb - AI Engineer "
                   fill
                   className="object-cover rounded-2xl shadow-2xl"
                   priority

@@ -60,7 +60,7 @@ export default function Contact() {
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Tunis, Tunisia',
+      value: 'Monastir, Tunisia',
       href: null,
       color: 'text-gray-700 hover:text-gray-900'
     }
