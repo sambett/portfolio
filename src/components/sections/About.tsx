@@ -143,30 +143,7 @@ export function About() {
             </motion.div>
           </div>
 
-          {/* Global Impact Highlight */}
-          <motion.div 
-            variants={itemVariants}
-            className="mt-16 text-center"
-          >
-            <div className="card surface-subtle p-8 max-w-2xl mx-auto">
-              <div className="flex items-center justify-center gap-8 text-sm text-neutral-600">
-                <div className="flex items-center gap-2">
-                  <span className="text-lg">🇹🇷</span>
-                  <span>Turkey Volunteer</span>
-                </div>
-                <div className="w-1 h-1 bg-neutral-300 rounded-full"></div>
-                <div className="flex items-center gap-2">
-                  <span className="text-lg">🇲🇦</span>
-                  <span>Morocco Experience</span>
-                </div>
-                <div className="w-1 h-1 bg-neutral-300 rounded-full"></div>
-                <div className="flex items-center gap-2">
-                  <span className="text-lg">🏆</span>
-                  <span>Hackathon Winner</span>
-                </div>
-              </div>
-            </div>
-          </motion.div>
+
         </motion.div>
       </div>
     </section>
