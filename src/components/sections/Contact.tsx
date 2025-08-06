@@ -101,12 +101,12 @@ export default function Contact() {
         >
           {/* Header */}
           <motion.div variants={itemVariants} className="text-center mb-16">
-            <h2 className="text-display-lg mb-6 gradient-text">Let's Work Together</h2>
+            <h2 className="text-display-lg mb-6 gradient-text">Let&apos;s Work Together</h2>
             <div className="w-24 h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent mx-auto mb-6"></div>
             <p className="text-body-lg max-w-3xl mx-auto">
-              I'm always interested in new opportunities and collaborations. 
+              I&apos;m always interested in new opportunities and collaborations. 
               Whether you have a project idea, job opportunity, or just want to connect, 
-              I'd love to hear from you.
+              I&apos;d love to hear from you.
             </p>
           </motion.div>
 
@@ -116,8 +116,8 @@ export default function Contact() {
               <div className="card surface-subtle p-8">
                 <h3 className="text-heading-md mb-6 text-gray-900">Get In Touch</h3>
                 <p className="text-body leading-relaxed mb-8">
-                  I'm currently open to full-time opportunities in AI Engineering, 
-                  Full-Stack Development, and DevOps roles. I'm particularly interested 
+                  I&apos;m currently open to full-time opportunities in AI Engineering, 
+                  Full-Stack Development, and DevOps roles. I&apos;m particularly interested 
                   in positions where I can apply machine learning to solve real-world problems.
                 </p>
 
@@ -269,7 +269,7 @@ export default function Contact() {
                       animate={{ opacity: 1, y: 0 }}
                       className="text-green-600 text-sm text-center"
                     >
-                      Thanks for your message! I'll get back to you soon.
+                      Thanks for your message! I&apos;ll get back to you soon.
                     </motion.p>
                   )}
 
