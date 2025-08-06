@@ -8,7 +8,7 @@ import { useAnimations, useStaggerAnimation, animations } from '../../hooks/useA
  */
 export function AnimationExamples() {
   const fadeUpExample = useAnimations();
-  const staggerExample = useStaggerAnimation();
+  const staggerExample = useStaggerAnimation<HTMLUListElement>();
 
   return (
     <div className="section-padding">
