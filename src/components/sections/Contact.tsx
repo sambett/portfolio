@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, MapPin, Send, Download, FileText } from 'lucide-react';
+import { Mail, Linkedin, Github, MapPin, Download, FileText } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Contact() {
