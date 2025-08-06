@@ -1,38 +1,33 @@
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, MapPin, Send } from 'lucide-react';
+import { Mail, Linkedin, Github, MapPin, Send, Download, FileText } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [isDownloading, setIsDownloading] = useState(false);
+  const [downloadStatus, setDownloadStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  const handleDownloadCV = async () => {
+    setIsDownloading(true);
     
-    // Simulate form submission (replace with your actual form handler)
+    // Download CV with success animation
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', message: '' });
+      await new Promise(resolve => setTimeout(resolve, 800)); // Brief loading for UX
+      
+      // Create and trigger download
+      const link = document.createElement('a');
+      link.href = '/resume.pdf';
+      link.download = 'Selma_Bettaieb_Resume.pdf';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      
+      setDownloadStatus('success');
     } catch {
-      setSubmitStatus('error');
+      setDownloadStatus('error');
     } finally {
-      setIsSubmitting(false);
-      setTimeout(() => setSubmitStatus('idle'), 3000);
+      setIsDownloading(false);
+      setTimeout(() => setDownloadStatus('idle'), 4000);
     }
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
   };
 
   const contactLinks = [
@@ -175,114 +170,108 @@ export default function Contact() {
 
             {/* Contact Form */}
             <motion.div variants={itemVariants}>
-              <div className="card p-8">
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div>
-                    <label htmlFor="name" className="block text-label mb-2">
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none transition-colors"
-                      placeholder="Your name"
-                    />
+              <div className="card p-8 bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-100">
+                <div className="text-center mb-8">
+                  <motion.div
+                    whileHover={{ scale: 1.1, rotate: 5 }}
+                    transition={{ duration: 0.3 }}
+                    className="w-20 h-20 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg"
+                  >
+                    <FileText className="w-10 h-10 text-white" />
+                  </motion.div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-3">Download My Resume</h3>
+                  <p className="text-gray-600 mb-6 max-w-md mx-auto">
+                    Get my complete background in AI Engineering, Full-Stack Development & DevOps. 
+                    Ready for immediate opportunities!
+                  </p>
+                  
+                  <div className="flex flex-wrap justify-center gap-2 mb-8 text-xs">
+                    <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full font-medium">AI Engineer</span>
+                    <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full font-medium">Full-Stack Dev</span>
+                    <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full font-medium">DevOps</span>
+                    <span className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full font-medium">Global Experience</span>
                   </div>
-
-                  <div>
-                    <label htmlFor="email" className="block text-label mb-2">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none transition-colors"
-                      placeholder="your.email@example.com"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="message" className="block text-label mb-2">
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                      rows={6}
-                      className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:border-blue-500 focus:outline-none transition-colors resize-vertical"
-                      placeholder="Tell me about your project, opportunity, or just say hello..."
-                    />
-                  </div>
-
+                </div>
+                
+                <div className="space-y-6">
                   <motion.button
-                    type="submit"
-                    disabled={isSubmitting}
-                    whileHover={{ scale: isSubmitting ? 1 : 1.02 }}
-                    whileTap={{ scale: isSubmitting ? 1 : 0.98 }}
-                    className={`w-full flex items-center justify-center gap-2 px-6 py-4 rounded-lg font-medium transition-all focus-ring ${
-                      isSubmitting
-                        ? 'bg-gray-400 text-gray-600 cursor-not-allowed'
-                        : submitStatus === 'success'
-                        ? 'bg-green-600 text-white shadow-lg'
-                        : submitStatus === 'error'
-                        ? 'bg-red-600 text-white shadow-lg'
-                        : 'bg-gray-900 text-white hover:bg-gray-800 shadow-lg hover:shadow-xl'
+                    onClick={handleDownloadCV}
+                    disabled={isDownloading}
+                    whileHover={{ scale: isDownloading ? 1 : 1.02 }}
+                    whileTap={{ scale: isDownloading ? 1 : 0.98 }}
+                    className={`w-full flex items-center justify-center gap-3 px-8 py-4 rounded-xl font-bold text-lg transition-all focus-ring shadow-lg hover:shadow-xl ${
+                      isDownloading
+                        ? 'bg-blue-400 text-white cursor-not-allowed'
+                        : downloadStatus === 'success'
+                        ? 'bg-green-500 text-white scale-105'
+                        : downloadStatus === 'error'
+                        ? 'bg-red-500 text-white'
+                        : 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white hover:from-blue-700 hover:to-indigo-700 hover:scale-105'
                     }`}
                   >
-                    {isSubmitting ? (
+                    {isDownloading ? (
                       <>
-                        <div className="w-5 h-5 border-2 border-gray-600 border-t-transparent rounded-full animate-spin" />
-                        Sending...
+                        <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                        Preparing Download...
                       </>
-                    ) : submitStatus === 'success' ? (
+                    ) : downloadStatus === 'success' ? (
                       <>
-                        <div className="w-5 h-5 text-green-100">✓</div>
-                        Message Sent!
+                        <motion.div 
+                          initial={{ scale: 0 }} 
+                          animate={{ scale: 1, rotate: 360 }}
+                          transition={{ duration: 0.5 }}
+                          className="w-6 h-6 text-white"
+                        >
+                          ✓
+                        </motion.div>
+                        Downloaded! 
                       </>
-                    ) : submitStatus === 'error' ? (
+                    ) : downloadStatus === 'error' ? (
                       <>
-                        <div className="w-5 h-5 text-red-100">✗</div>
-                        Failed to Send
+                        <div className="w-6 h-6 text-white">✗</div>
+                        Download Failed
                       </>
                     ) : (
                       <>
-                        <Send className="w-5 h-5" />
-                        Send Message
+                        <Download className="w-6 h-6" />
+                        Download Resume (PDF)
                       </>
                     )}
                   </motion.button>
 
-                  {submitStatus === 'success' && (
-                    <motion.p
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      className="text-green-600 text-sm text-center"
+                  {downloadStatus === 'success' && (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10, scale: 0.9 }}
+                      animate={{ opacity: 1, y: 0, scale: 1 }}
+                      className="bg-green-50 border border-green-200 rounded-xl p-6 text-center"
                     >
-                      Thanks for your message! I&apos;ll get back to you soon.
-                    </motion.p>
+                      <motion.div
+                        animate={{ rotate: [0, -10, 10, 0] }}
+                        transition={{ duration: 0.5 }}
+                        className="text-3xl mb-3"
+                      >
+                        📄✨
+                      </motion.div>
+                      <p className="text-green-700 font-bold text-lg mb-2">
+                        Resume Downloaded Successfully!
+                      </p>
+                      <p className="text-green-600">
+                        Thanks for your interest! Feel free to reach out via email or LinkedIn.
+                      </p>
+                    </motion.div>
                   )}
 
-                  {submitStatus === 'error' && (
-                    <motion.p
+                  {downloadStatus === 'error' && (
+                    <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="text-red-600 text-sm text-center"
+                      className="text-red-600 text-center bg-red-50 border border-red-200 rounded-xl p-4"
                     >
-                      There was an error sending your message. Please try emailing me directly.
-                    </motion.p>
+                      <p className="font-medium mb-1">Download failed!</p>
+                      <p className="text-sm">Please try again or email me directly for my resume.</p>
+                    </motion.div>
                   )}
-                </form>
+                </div>
               </div>
             </motion.div>
           </div>
