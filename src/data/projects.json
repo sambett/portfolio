@@ -123,12 +123,12 @@
     {
       "id": "twise-feedback",
       "title": "AI-Powered Universal Feedback Platform",
-      "description": "Real-time sentiment analysis platform with DistilBERT achieving 95% accuracy vs 60% keyword matching",
+      "description": "Real-time sentiment analysis platform with DistilBERT achieving 95% accuracy ",
       "fullDescription": "A real-time feedback collection and analytics platform that uses machine learning for sentiment analysis. The system supports multiple event types (research conferences, weddings, corporate demos) with customizable themes and provides live dashboard analytics using DistilBERT multilingual sentiment model.",
       "category": "AI Engineer",
       "techStack": ["Next.js 15", "React 19", "TypeScript", "Transformers.js", "DistilBERT", "Firebase", "Tailwind CSS"],
       "githubUrl": "https://github.com/sambett",
-      "demoUrl": "https://twise-feedback.vercel.app/",
+      "demoUrl": "https://youtu.be/h-hxOHiDYVg",
       "impact": [
         "🤖 Real-time AI sentiment analysis using DistilBERT (95% accuracy vs 60% keyword matching)",
         "🎭 Multi-tenant event management with customizable themes and branding",
